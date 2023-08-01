@@ -31,7 +31,6 @@ html {
   flex-wrap: wrap;
   gap: 2vmin;
   position: relative;
-  top: 30px;
 }
 
 .button-option {
@@ -52,7 +51,6 @@ html {
   color: #ffffff;
   border: none;
   position: relative ;
-  top: 20px;
   margin: 1.5em auto 0 auto;
   display: block;
 }
