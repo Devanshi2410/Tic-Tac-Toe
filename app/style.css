@@ -6,6 +6,7 @@
 }
 body {
   height: 100vh;
+  display: flex;
   background: linear-gradient(135deg, #050408, #fa0f1f);
   justify-content: center;
     align-items: center;
@@ -29,6 +30,8 @@ html {
   display: flex;
   flex-wrap: wrap;
   gap: 2vmin;
+  position: relative;
+  top: 30px;
 }
 
 .button-option {
@@ -48,7 +51,8 @@ html {
   background-color: #e60eac;
   color: #ffffff;
   border: none;
-  position: relative;
+  position: relative ;
+  top: 20px;
   margin: 1.5em auto 0 auto;
   display: block;
 }
