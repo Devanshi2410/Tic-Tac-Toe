@@ -7,9 +7,15 @@
 body {
   height: 100vh;
   background: linear-gradient(135deg, #050408, #fa0f1f);
+  justify-content: center;
+    align-items: center;
 }
 html {
   font-size: 16px;
+}
+.sg-logo {
+    width: 30%;
+    justify-self: center;
 }
 .wrapper {
   position: absolute;
@@ -24,6 +30,7 @@ html {
   flex-wrap: wrap;
   gap: 2vmin;
 }
+
 .button-option {
   background: #ffffff;
   height: 22vmin;
@@ -45,6 +52,23 @@ html {
   margin: 1.5em auto 0 auto;
   display: block;
 }
+
+main {
+    width: 90vw;
+    max-width: 600px;
+    max-height: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 15px;
+}
+.restart:hover {
+    border: 1px solid #f44788;
+    box-shadow: 0 10px 30px rgba(244, 71, 136, 0.2);
+    cursor: pointer;
+}
+
 .popup {
   background: linear-gradient(135deg, #d413c7, #ed4eeb);
   height: 100%;
